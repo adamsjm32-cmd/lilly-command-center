@@ -8,6 +8,14 @@ window.LCC = {
    "focus": "Finish and submit the Caesar essay by Thursday.",
    "tasks": [
     {
+     "id": "w1-piano",
+     "d": "2026-10-28",
+     "t": "Ask your piano teacher about the missing “Man in the Moon”",
+     "course": "Intro to Piano",
+     "mins": 5,
+     "done": "You’ve asked, today or before class tomorrow, because Q1 ends Thursday."
+    },
+    {
      "id": "w1-caesar-1",
      "d": "2026-10-28",
      "at": "16:00",
@@ -38,6 +46,14 @@ window.LCC = {
      "link": "#writing"
     },
     {
+     "id": "w1-english",
+     "d": "2026-10-29",
+     "t": "Check: Circular Write paragraph handed in?",
+     "course": "English 9",
+     "mins": 2,
+     "done": "It’s turned in, or you know when it will be."
+    },
+    {
      "id": "w1-caesar-4",
      "d": "2026-10-29",
      "t": "Submit the Caesar essay + organizer",
@@ -56,7 +72,7 @@ window.LCC = {
   },
   {
    "start": "2026-11-02",
-   "focus": "Set up: add every due date from Google Classroom so nothing surprises you.",
+   "focus": "Q2, week 1: set up a test-prep habit for Algebra and Science before the next tests.",
    "tasks": [
     {
      "id": "w2-grade",
@@ -147,6 +163,12 @@ window.LCC = {
    "e": "19:15",
    "t": "Contemp",
    "c": "dance"
+  },
+  {
+   "d": "2026-10-29",
+   "t": "Last day of Q1",
+   "c": "school",
+   "a": 1
   },
   {
    "d": "2026-10-29",
@@ -841,6 +863,79 @@ window.LCC = {
    ]
   }
  },
- "grades": null,
+ "grades": {
+  "mode": "flags",
+  "pulled": "2026-10-28",
+  "term": "Q1",
+  "termEnds": "2026-10-29",
+  "nextTerm": "Q2 starts Oct 30",
+  "classes": [
+   {
+    "name": "English 9",
+    "level": "ACP",
+    "letter": "A",
+    "pct": 94.28
+   },
+   {
+    "name": "Spanish II",
+    "level": "",
+    "letter": "A",
+    "pct": 94.41
+   },
+   {
+    "name": "Ceramics",
+    "level": "",
+    "letter": "A",
+    "pct": 93.0
+   },
+   {
+    "name": "Intro to Piano",
+    "level": "",
+    "letter": "A-",
+    "pct": 90.58,
+    "flag": "1 missing: “Man in the Moon” (0/5, Oct 8)"
+   },
+   {
+    "name": "Global Civilization",
+    "level": "ACP",
+    "letter": "A-",
+    "pct": 90.16,
+    "flag": "Right at the A-/B+ line. The Caesar essay isn’t in the gradebook yet."
+   },
+   {
+    "name": "Integrated Phys Science",
+    "level": "ACP",
+    "letter": "B+",
+    "pct": 89.34,
+    "flag": "0.66 points from A-. Unit tests: 81% and 65%."
+   },
+   {
+    "name": "Algebra 1",
+    "level": "ACP",
+    "letter": "B",
+    "pct": 83.04,
+    "flag": "Homework is at 100%; tests and quizzes average about 81%."
+   }
+  ],
+  "pattern": {
+   "title": "Homework is nearly perfect. Tests are where the points go.",
+   "body": "Across classes, homework, notes and packets are almost all 100%. Tests and quizzes run lower: Algebra about 81%, Global Civ 82%, Science unit tests 81% and 65%. That’s the biggest lever for Q2, and it’s a study-method fix, not an effort fix. Study Lab’s self-checks are built for exactly this.",
+   "evidence": "Infinite Campus, assignment list, Aug 27–Oct 28"
+  },
+  "watch": [
+   {
+    "t": "Piano: “Man in the Moon” is missing (0/5).",
+    "c": "Q1 closes tomorrow. Ask your piano teacher today whether you can still make it up."
+   },
+   {
+    "t": "English: Circular Write was due as a handwritten paragraph on Tue 10/27.",
+    "c": "No score yet. If it’s still in your bag, hand it in."
+   },
+   {
+    "t": "English: Ch 6 homework from Fri 10/23 (you were out, excused).",
+    "c": "Your teacher asked to see it. Make sure that happened."
+   }
+  ]
+ },
  "tests": []
 };
